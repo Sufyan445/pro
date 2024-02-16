@@ -15,6 +15,7 @@ const Projects = () => {
         <div className="flex justify-center items-center sm:items-start sm:justify-start">
           <Image
             src={weather}
+            alt="weather project image"
             className="h-[250px] w-[300px] object-cover rounded-md sm:w-[55%] sm:h-[50%] sm:absolute sm:-z-10"
           />
         </div>
@@ -22,7 +23,7 @@ const Projects = () => {
           <h1 className="text-4xl w-[100%] text-center font-thin mt-[20px] sm:mb-[10px] sm:text-end">
             Gamma Weather
           </h1>
-          <div className="p-[15px] w-[100%] rounded-2xl mt-[5px] sm:z-10 sm:bg-[#058c42] sm:w-[55%]">
+          <div className="p-[15px] w-[100%] rounded-2xl mt-[5px] sm:z-10 sm:bg-[#176B87] sm:w-[55%]">
             <p className="text-xl">
               A dynamic and user-friendly weather web application, providing
               real-time weather updates and forecasts. Users can stay informed
@@ -42,6 +43,7 @@ const Projects = () => {
         <div className="flex justify-center items-center sm:items-start sm:justify-end">
           <Image
             src={food}
+            alt="food recipe project image"
             className="h-[250px] w-[300px] object-cover rounded-md sm:w-[55%] sm:h-[50%] sm:absolute sm:-z-10"
           />
         </div>
@@ -49,7 +51,7 @@ const Projects = () => {
           <h1 className="text-4xl w-[100%] text-center font-thin mt-[20px] sm:mb-[10px]  sm:text-start">
             Taste Flavours
           </h1>
-          <div className=" p-[15px] w-[100%] rounded-2xl mt-[5px] sm:z-10 sm:bg-[#058c42] sm:w-[55%]">
+          <div className=" p-[15px] w-[100%] rounded-2xl mt-[5px] sm:z-10 sm:bg-[#176B87] sm:w-[55%]">
             <p className="text-xl">
               Crafted a delightful food recipe hub where culinary enthusiasts
               can discover, share, and indulge in a variety of recipes. From
@@ -70,6 +72,7 @@ const Projects = () => {
         <div className="flex justify-center items-center sm:items-start sm:justify-start">
           <Image
             src={quran}
+            alt="Quran app project image"
             className="h-[250px] w-[300px] object-cover rounded-md sm:w-[55%] sm:h-[50%] sm:absolute sm:-z-10"
           />
         </div>
@@ -77,7 +80,7 @@ const Projects = () => {
           <h1 className="text-4xl w-[100%] text-center font-thin mt-[20px] sm:mb-[10px]  sm:text-end ">
             Al Quran Majeed
           </h1>
-          <div className=" p-[15px] w-[100%] rounded-2xl mt-[5px] sm:z-10 sm:bg-[#058c42] sm:w-[55%]">
+          <div className=" p-[15px] w-[100%] rounded-2xl mt-[5px] sm:z-10 sm:bg-[#176B87] sm:w-[55%]">
             <p className="text-xl">
               Developed a user-friendly Quran web application, fostering a
               seamless digital experience for reading and exploring the Holy
@@ -99,6 +102,7 @@ const Projects = () => {
         <div className="flex justify-center items-center sm:items-start sm:justify-end">
           <Image
             src={myblawg}
+            alt="Blog project image"
             className="h-[250px] w-[300px] object-cover rounded-md sm:w-[55%] sm:h-[55%] sm:absolute sm:-z-10"
           />
         </div>
@@ -106,7 +110,7 @@ const Projects = () => {
           <h1 className="text-4xl w-[100%] text-center font-thin mt-[20px] sm:mb-[10px]  sm:text-start">
             My Blawg
           </h1>
-          <div className=" p-[15px] w-[100%] rounded-2xl mt-[5px] sm:z-10 sm:bg-[#058c42] sm:w-[55%] ">
+          <div className=" p-[15px] w-[100%] rounded-2xl mt-[5px] sm:z-10 sm:bg-[#176B87] sm:w-[55%] ">
             <p className="text-xl">
               Designed and developed a robust blog platform that empowers users
               to share their thoughts and experiences. The intuitive interface
